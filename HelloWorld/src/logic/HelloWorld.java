@@ -1,10 +1,15 @@
 package logic;
 
+import java.util.logging.Logger;
+
 public class HelloWorld {
 
 	public static void main(String[] args) {
-		System.out.println("Hello World !");
-
+		Logger logger = Logger.getLogger(HelloWorld.class.getName());
+		
+		logger.info("Hello World !");
+		//logger.warning("This is a warning");
+		//logger.severe("ERROR !");
 	}
 
 }
