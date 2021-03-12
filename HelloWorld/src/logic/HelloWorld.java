@@ -8,8 +8,6 @@ public class HelloWorld {
 		Logger logger = Logger.getLogger(HelloWorld.class.getName());
 		
 		logger.info("Hello World !");
-		
-		//test comment
 	}
 
 }
